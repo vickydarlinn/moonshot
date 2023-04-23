@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  color: #4d5765;
+  background: rgb(78, 130, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 130, 236, 1) 0%,
+    rgba(85, 179, 168, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.pricing_container {
+  max-width: 470px;
+  background-color: #ffffff;
+  padding: 4rem 3rem;
+  border-radius: 10px;
+  position: relative;
+}
+.plan_name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #845eed;
+}
+.plan_price {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #394353;
+  margin: 1.5rem 0;
+}
+.plan_price span {
+  font-weight: initial;
+  font-size: initial;
+}
+.plan_description {
+  color: #69717f;
+  line-height: 1.5;
+}
+.plan_features {
+  list-style: none;
+  margin: 1rem 0;
+}
+.plan_features > li {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+.plan_features li::before {
+  position: absolute;
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 5px;
+  left: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M4.5 12.75l6 6 9-13.5' /%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.plan_subscribe_btn {
+  margin-top: 15rem;
+}
+.plan_subscribe_btn button {
+  width: 100%;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* for badges */
+.plan_badge {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  transform: translateY(-50%);
+  display: flex;
+  border-radius: 10px;
+  gap: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+.popular_badge {
+  background-color: #5ec269;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.discount_badge {
+  background-color: #e2b53e;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}

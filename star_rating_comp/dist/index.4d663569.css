@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+* {
+  font-size: 100px;
+}
+
+.highlighted {
+  color: #ff0;
+}
+
+.star {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

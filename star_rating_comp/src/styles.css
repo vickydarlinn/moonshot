@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+* {
+  font-size: 100px;
+}
+.highlighted {
+  color: yellow;
+}
+.star {
+  cursor: pointer;
+}
